@@ -1,0 +1,56 @@
+{
+  "A/dev": {
+    "n": 15,
+    "hit1_n": 2,
+    "hit3_n": 9,
+    "hit1": 0.13333333333333333,
+    "hit3": 0.6,
+    "filter_n": 3,
+    "filter_compliant_n": 0
+  },
+  "B/dev": {
+    "n": 15,
+    "hit1_n": 8,
+    "hit3_n": 12,
+    "hit1": 0.5333333333333333,
+    "hit3": 0.8,
+    "filter_n": 3,
+    "filter_compliant_n": 1
+  },
+  "C/dev": {
+    "n": 15,
+    "hit1_n": 8,
+    "hit3_n": 12,
+    "hit1": 0.5333333333333333,
+    "hit3": 0.8,
+    "filter_n": 3,
+    "filter_compliant_n": 3
+  },
+  "A/test": {
+    "n": 5,
+    "hit1_n": 3,
+    "hit3_n": 3,
+    "hit1": 0.6,
+    "hit3": 0.6,
+    "filter_n": 1,
+    "filter_compliant_n": 0
+  },
+  "B/test": {
+    "n": 5,
+    "hit1_n": 4,
+    "hit3_n": 5,
+    "hit1": 0.8,
+    "hit3": 1.0,
+    "filter_n": 1,
+    "filter_compliant_n": 0
+  },
+  "C/test": {
+    "n": 5,
+    "hit1_n": 4,
+    "hit3_n": 5,
+    "hit1": 0.8,
+    "hit3": 1.0,
+    "filter_n": 1,
+    "filter_compliant_n": 1
+  }
+}

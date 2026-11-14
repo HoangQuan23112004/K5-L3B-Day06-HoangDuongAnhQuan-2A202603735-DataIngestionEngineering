@@ -1,4 +1,4 @@
-strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+﻿strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
+A,fixed,800,100,"document_id,source,page,chapter,language,start,end",none,sentence-transformers/all-MiniLM-L6-v2,simple overlapping baseline,0.13333333333333333,0.6,0.6,0.6,Measured artifacts: results/20261113_150013; AI-assisted audit completed (Codex); human verification pending
+B,paragraph,800,0,"document_id,source,page,chapter,language,start,end",none,sentence-transformers/all-MiniLM-L6-v2,paragraph boundaries retain meaning,0.5333333333333333,0.8,0.8,1.0,Measured artifacts: results/20261113_150013; AI-assisted audit completed (Codex); human verification pending
+C,paragraph,800,0,"document_id,source,page,chapter,language,start,end",chapter if supplied in question,sentence-transformers/all-MiniLM-L6-v2,chapter scope reduces distractors,0.5333333333333333,0.8,0.8,1.0,Measured artifacts: results/20261113_150013; AI-assisted audit completed (Codex); human verification pending

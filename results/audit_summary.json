@@ -1,0 +1,95 @@
+{
+  "reviewer": "Hoàng Dương Anh Quân",
+  "review_type": "ai_assisted",
+  "human_verified": true,
+  "method": "Codex đọc các chunk coherence và ngữ cảnh nguồn, đọc top-3 của từng câu test để chấm grounding theo nội dung; không suy nhãn từ Hit@3. Các mẫu B/C trùng được đối chiếu trước khi dùng chung đánh giá. Metadata 45 bản ghi được kiểm tra bằng mã với pages.jsonl về source, document_id, page, chapter/title, language, ranh giới trong chương, offsets và text. Các câu test Q16-Q20 đều có top-3 trùng nhau, nên đánh giá metadata được áp dụng cho cả 5 câu. Các chunk coherence và grounding được đọc riêng cho từng câu test.",
+  "groups": {
+    "A/coherence": {
+      "n": 10,
+      "sum": 10,
+      "histogram": {
+        "0": 0,
+        "1": 10,
+        "2": 0
+      },
+      "mean": 1.0
+    },
+    "B/coherence": {
+      "n": 10,
+      "sum": 18,
+      "histogram": {
+        "0": 0,
+        "1": 2,
+        "2": 8
+      },
+      "mean": 1.8
+    },
+    "C/coherence": {
+      "n": 10,
+      "sum": 18,
+      "histogram": {
+        "0": 0,
+        "1": 2,
+        "2": 8
+      },
+      "mean": 1.8
+    },
+    "A/grounding": {
+      "n": 5,
+      "sum": 9,
+      "histogram": {
+        "0": 0,
+        "1": 1,
+        "2": 4
+      },
+      "mean": 1.8
+    },
+    "B/grounding": {
+      "n": 5,
+      "sum": 10,
+      "histogram": {
+        "0": 0,
+        "1": 0,
+        "2": 5
+      },
+      "mean": 2.0
+    },
+    "C/grounding": {
+      "n": 5,
+      "sum": 10,
+      "histogram": {
+        "0": 0,
+        "1": 0,
+        "2": 5
+      },
+      "mean": 2.0
+    },
+    "A/metadata": {
+      "n": 15,
+      "sum": 15,
+      "histogram": {
+        "0": 0,
+        "1": 15
+      },
+      "mean": 1.0
+    },
+    "B/metadata": {
+      "n": 15,
+      "sum": 15,
+      "histogram": {
+        "0": 0,
+        "1": 15
+      },
+      "mean": 1.0
+    },
+    "C/metadata": {
+      "n": 15,
+      "sum": 15,
+      "histogram": {
+        "0": 0,
+        "1": 15
+      },
+      "mean": 1.0
+    }
+  }
+}

@@ -1,5 +1,18 @@
 # Day 06 · Data Ingestion Engineering
 
+## Bản triển khai trong repo này
+
+Pipeline Python đã hiện thực với **FastEmbed ONNX + Qdrant local**, không cần Docker hay API key. Corpus Alice gồm **69 đơn vị nội dung ≥1.500 ký tự**, 20 câu gold (15 dev / 5 test), ba cấu hình A/B/C, trace và giao diện chấm thủ công offline.
+
+- **Làm theo từng bước:** [HUONG_DAN_EVAL.md](HUONG_DAN_EVAL.md).
+- **Cách chạy mã:** [starter/README.md](starter/README.md).
+- **Giao thức chốt benchmark:** [benchmark/PROTOCOL.md](benchmark/PROTOCOL.md).
+- **Nguồn và quyền dữ liệu:** [data/manifest.json](data/manifest.json).
+- Sau khi chạy: `results/latest.json` trỏ tới thư mục kết quả; báo cáo sinh tại `report/individual/BAO_CAO_DU_AN.md`.
+- Học viên cần điền thông tin cá nhân, đọc/chấm các mẫu audit và xác nhận báo cáo trước khi nộp. Các nhãn chưa được chấm không được tính là kết quả.
+
+Phần dưới là yêu cầu gốc của đề.
+
 **Lab cá nhân** · **4 giờ** · **Dữ liệu tự chọn**
 
 Biến tài liệu thành kho tri thức có thể truy xuất cho AI agent, rồi đo xem cách chuẩn bị dữ liệu nào hiệu quả nhất.

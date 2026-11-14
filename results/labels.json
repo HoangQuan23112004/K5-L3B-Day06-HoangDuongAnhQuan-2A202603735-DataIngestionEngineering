@@ -1,0 +1,460 @@
+{
+  "run": "20261113_150013",
+  "reviewer": "Hoàng Dương Anh Quân",
+  "review_type": "ai_assisted",
+  "human_verified": "True",
+  "reviewed_at": "2026-11-14T09:52:30.502441+07:00",
+  "method": "Codex đọc các chunk coherence và ngữ cảnh nguồn, đọc top-3 của từng câu test để chấm grounding theo nội dung; không suy nhãn từ Hit@3. Các mẫu B/C trùng được đối chiếu trước khi dùng chung đánh giá. Metadata 45 bản ghi được kiểm tra bằng mã với pages.jsonl về source, document_id, page, chapter/title, language, ranh giới trong chương, offsets và text.",
+  "labels": [
+    {
+      "id": "coherence-0",
+      "score": 1,
+      "reason": "Đọc được Alice chán sách và thấy White Rabbit, nhưng cuối chunk dừng giữa từ afterwa trong câu hồi tưởng; mạch kể thứ ba bị cắt, chỉ hiểu trọn phần đầu."
+    },
+    {
+      "id": "coherence-1",
+      "score": 2,
+      "reason": "Hai đoạn đều trọn câu: Alice chán cuốn sách không có tranh/hội thoại và nhìn thấy White Rabbit. Có chủ thể, hoàn cảnh và sự kiện rõ, không lấy thêm đoạn hồi tưởng rồi cắt dở như A."
+    },
+    {
+      "id": "coherence-2",
+      "score": 2,
+      "reason": "Hai đoạn đều trọn câu: Alice chán cuốn sách không có tranh/hội thoại và nhìn thấy White Rabbit. Có chủ thể, hoàn cảnh và sự kiện rõ, không lấy thêm đoạn hồi tưởng rồi cắt dở như A. Chunk trùng B tại cùng vị trí; filter truy xuất không thay đổi mẫu coherence."
+    },
+    {
+      "id": "coherence-3",
+      "score": 1,
+      "reason": "Biết Alice đang rơi và tự so khoảng cách đến tâm Trái Đất, nhưng đoạn ước lượng bị cắt giữa từ distanc, chưa xong lời tự thoại; có chủ thể nhưng không trọn diễn biến."
+    },
+    {
+      "id": "coherence-4",
+      "score": 2,
+      "reason": "Lời tự thoại giữ trọn: Alice so cú rơi hiện tại với ngã cầu thang/mái nhà và tưởng tượng người ở nhà khen dũng cảm. Không cần biết chính xác độ sâu để hiểu ý của chunk này."
+    },
+    {
+      "id": "coherence-5",
+      "score": 2,
+      "reason": "Lời tự thoại giữ trọn: Alice so cú rơi hiện tại với ngã cầu thang/mái nhà và tưởng tượng người ở nhà khen dũng cảm. Không cần biết chính xác độ sâu để hiểu ý của chunk này. Chunk trùng B tại cùng vị trí; filter truy xuất không thay đổi mẫu coherence."
+    },
+    {
+      "id": "coherence-6",
+      "score": 1,
+      "reason": "Giữ được đoạn Alice đuổi Rabbit vào đại sảnh; đoạn sau về các cửa khóa bị cắt giữa từ ou, chưa kết thúc ý tìm đường ra."
+    },
+    {
+      "id": "coherence-7",
+      "score": 2,
+      "reason": "Giữ đủ chuỗi Alice đứng dậy, đuổi theo Rabbit, Rabbit biến mất và cô đến đại sảnh có đèn. Có tên nhân vật, trình tự và điểm kết hoàn chỉnh."
+    },
+    {
+      "id": "coherence-8",
+      "score": 2,
+      "reason": "Giữ đủ chuỗi Alice đứng dậy, đuổi theo Rabbit, Rabbit biến mất và cô đến đại sảnh có đèn. Có tên nhân vật, trình tự và điểm kết hoàn chỉnh. Chunk trùng B tại cùng vị trí; filter truy xuất không thay đổi mẫu coherence."
+    },
+    {
+      "id": "coherence-9",
+      "score": 1,
+      "reason": "Có Alice và chai DRINK ME; phần kiểm tra poison đã xuất hiện nhưng lời giải thích cảnh báo bị cắt ở simple r, thiếu phần còn lại của ý an toàn."
+    },
+    {
+      "id": "coherence-10",
+      "score": 2,
+      "reason": "Đoạn hoàn chỉnh nêu việc quay lại bàn, tìm thấy chai và đọc nhãn DRINK ME; tên Alice xuất hiện trong lời dẫn. Chưa kể tác dụng chai nhưng không đưa ra khẳng định dở dang về tác dụng."
+    },
+    {
+      "id": "coherence-11",
+      "score": 2,
+      "reason": "Đoạn hoàn chỉnh nêu việc quay lại bàn, tìm thấy chai và đọc nhãn DRINK ME; tên Alice xuất hiện trong lời dẫn. Chưa kể tác dụng chai nhưng không đưa ra khẳng định dở dang về tác dụng. Chunk trùng B tại cùng vị trí; filter truy xuất không thay đổi mẫu coherence."
+    },
+    {
+      "id": "coherence-12",
+      "score": 1,
+      "reason": "Giữ được việc Alice không với tới chìa khóa và khóc, nhưng lời kể tiếp về tự khuyên răn bị cắt giữa từ ey; hiểu một phần nhưng không trọn chunk."
+    },
+    {
+      "id": "coherence-13",
+      "score": 2,
+      "reason": "Giữ trọn chuỗi Alice quên chìa khóa, không với được trên bàn kính, thử trèo nhưng trơn rồi khóc. Nêu rõ nhân vật, nguyên nhân, hành động và kết quả."
+    },
+    {
+      "id": "coherence-14",
+      "score": 2,
+      "reason": "Giữ trọn chuỗi Alice quên chìa khóa, không với được trên bàn kính, thử trèo nhưng trơn rồi khóc. Nêu rõ nhân vật, nguyên nhân, hành động và kết quả. Chunk trùng B tại cùng vị trí; filter truy xuất không thay đổi mẫu coherence."
+    },
+    {
+      "id": "coherence-15",
+      "score": 1,
+      "reason": "Đoạn Alice cao lên và nghĩ đến chân mình khá rõ; chunk bắt đầu thêm kế hoạch gửi quà nhưng dừng sau carrier, giữa lời tự thoại, chưa giải thích hết kế hoạch."
+    },
+    {
+      "id": "coherence-16",
+      "score": 2,
+      "reason": "Giữ nguyên đoạn Alice ngạc nhiên vì cao lên và lo việc đi giày cho đôi chân xa tầm với, kết bằng ý tặng boots dịp Christmas. Không lấy thêm phần gửi quà rồi cắt giữa chừng."
+    },
+    {
+      "id": "coherence-17",
+      "score": 2,
+      "reason": "Giữ nguyên đoạn Alice ngạc nhiên vì cao lên và lo việc đi giày cho đôi chân xa tầm với, kết bằng ý tặng boots dịp Christmas. Không lấy thêm phần gửi quà rồi cắt giữa chừng. Chunk trùng B tại cùng vị trí; filter truy xuất không thay đổi mẫu coherence."
+    },
+    {
+      "id": "coherence-18",
+      "score": 1,
+      "reason": "Có Alice cầm quạt và hoài nghi mình là ai; so sánh Ada/Mabel ở cuối bị dừng sau all sorts of things, thiếu vế đối chiếu với Mabel."
+    },
+    {
+      "id": "coherence-19",
+      "score": 2,
+      "reason": "Có Alice, chiếc quạt, sự khác lạ và câu hỏi về danh tính; kết bằng việc nhớ những đứa trẻ cùng tuổi để so sánh. Cả đoạn giữ một dòng suy nghĩ đầy đủ."
+    },
+    {
+      "id": "coherence-20",
+      "score": 2,
+      "reason": "Có Alice, chiếc quạt, sự khác lạ và câu hỏi về danh tính; kết bằng việc nhớ những đứa trẻ cùng tuổi để so sánh. Cả đoạn giữ một dòng suy nghĩ đầy đủ. Chunk trùng B tại cùng vị trí; filter truy xuất không thay đổi mẫu coherence."
+    },
+    {
+      "id": "coherence-21",
+      "score": 1,
+      "reason": "Đoạn co nhỏ do chiếc quạt đọc được nhưng đầu chỉ dùng she, thiếu tên nhân vật; câu tiếp về little door bị cắt trước trạng thái cánh cửa. Thiếu liên kết nhân vật và phần kết."
+    },
+    {
+      "id": "coherence-22",
+      "score": 1,
+      "reason": "Giữ trọn hiện tượng co nhỏ và nguyên nhân chiếc quạt nhưng cả đoạn chỉ dùng she/her, mở bằng As she said this, không chỉ rõ người nói hay lời nói trước đó. Đọc được hành động nhưng thiếu ngữ cảnh nhân vật."
+    },
+    {
+      "id": "coherence-23",
+      "score": 1,
+      "reason": "Giữ trọn hiện tượng co nhỏ và nguyên nhân chiếc quạt nhưng cả đoạn chỉ dùng she/her, mở bằng As she said this, không chỉ rõ người nói hay lời nói trước đó. Đọc được hành động nhưng thiếu ngữ cảnh nhân vật. Chunk trùng B tại cùng vị trí; filter truy xuất không thay đổi mẫu coherence."
+    },
+    {
+      "id": "coherence-24",
+      "score": 1,
+      "reason": "Nhận ra chuột và việc Alice hỏi đường khỏi hồ, nhưng cuối chunk dừng giữa ví dụ ngữ pháp A mouse—of, làm đoạn giải thích dang dở."
+    },
+    {
+      "id": "coherence-25",
+      "score": 1,
+      "reason": "Hành động nhận ra chuột trong hồ là trọn ý nhưng toàn đoạn chỉ dùng she, không gọi tên Alice và không giải thích nguồn gốc hồ. Thiếu chủ thể xác định khi đọc riêng chunk."
+    },
+    {
+      "id": "coherence-26",
+      "score": 1,
+      "reason": "Hành động nhận ra chuột trong hồ là trọn ý nhưng toàn đoạn chỉ dùng she, không gọi tên Alice và không giải thích nguồn gốc hồ. Thiếu chủ thể xác định khi đọc riêng chunk. Chunk trùng B tại cùng vị trí; filter truy xuất không thay đổi mẫu coherence."
+    },
+    {
+      "id": "coherence-27",
+      "score": 1,
+      "reason": "Biết Mouse ghét mèo và Alice chuyển sang kể chó; câu cuối bị cắt giữa từ rat, mất kết quả chó diệt chuột và phản ứng Mouse bỏ đi."
+    },
+    {
+      "id": "coherence-28",
+      "score": 2,
+      "reason": "Có chủ thể Mouse và phát biểu đầy đủ rằng gia đình nó ghét mèo, yêu cầu không nhắc tên nữa. Câu mở là lời đáp nhưng lý do tức giận đã được giải thích trong cùng chunk."
+    },
+    {
+      "id": "coherence-29",
+      "score": 2,
+      "reason": "Có chủ thể Mouse và phát biểu đầy đủ rằng gia đình nó ghét mèo, yêu cầu không nhắc tên nữa. Câu mở là lời đáp nhưng lý do tức giận đã được giải thích trong cùng chunk. Chunk trùng B tại cùng vị trí; filter truy xuất không thay đổi mẫu coherence."
+    },
+    {
+      "id": "grounding-0",
+      "score": 2,
+      "reason": "Top-1 unit 51 có bối cảnh trường dưới biển, ông thầy Turtle và lời giải thích Tortoise vì taught us; đủ căn cứ cho chơi chữ và truy nguồn dù phần đầu chunk bị cắt."
+    },
+    {
+      "id": "grounding-1",
+      "score": 2,
+      "reason": "Top-1 unit 51 giữ câu hỏi của Alice, ông thầy Turtle và lời đáp because he taught us. Đủ bối cảnh và nguyên nhân để trả lời; không dựa vào hit tự động để chấm."
+    },
+    {
+      "id": "grounding-2",
+      "score": 2,
+      "reason": "Top-1 unit 51 giữ câu hỏi của Alice, ông thầy Turtle và lời đáp because he taught us. Đủ bối cảnh và nguyên nhân để trả lời; không dựa vào hit tự động để chấm. Câu này không có filter; top-3 C trùng B nên giữ cùng đánh giá."
+    },
+    {
+      "id": "grounding-3",
+      "score": 2,
+      "reason": "Top-1 unit 52 có câu hỏi số giờ học, ten hours ngày đầu/nine ngày tiếp và lessen from day to day. Đầu/cuối chunk bị cắt nhưng còn đủ hai con số và ngữ cảnh câu hỏi."
+    },
+    {
+      "id": "grounding-4",
+      "score": 2,
+      "reason": "Top-1 unit 52 giữ cả hỏi số giờ, ten hours the first day, nine the next và giải thích số giờ giảm. Đủ bằng chứng trực tiếp để trả lời và truy nguồn."
+    },
+    {
+      "id": "grounding-5",
+      "score": 2,
+      "reason": "Top-1 unit 52 giữ cả hỏi số giờ, ten hours the first day, nine the next và giải thích số giờ giảm. Đủ bằng chứng trực tiếp để trả lời và truy nguồn. Câu này không có filter; top-3 C trùng B nên giữ cùng đánh giá."
+    },
+    {
+      "id": "grounding-6",
+      "score": 2,
+      "reason": "Top-1 unit 56 có no wise fish ... without a porpoise và lời Alice sửa purpose, đủ đáp án và chơi chữ. Top-3 có hit chương IX, là lỗi phạm vi riêng; bằng chứng chương X ở top-1 vẫn đủ."
+    },
+    {
+      "id": "grounding-7",
+      "score": 2,
+      "reason": "Top-1 unit 56/chương X có porpoise và câu Don’t you mean purpose của Alice, đủ trả lời. Hit chương IX trong top-3 được ghi ở filter compliance, không tự giảm điểm khi bằng chứng đã đủ."
+    },
+    {
+      "id": "grounding-8",
+      "score": 2,
+      "reason": "Top-1 unit 56 giữ porpoise và đối thoại purpose đầy đủ; cả ba hit thuộc chương X. Có đáp án, ngữ cảnh chơi chữ và vị trí nguồn đúng phạm vi."
+    },
+    {
+      "id": "grounding-9",
+      "score": 1,
+      "reason": "Top-1 unit 61 kể Hatter cắn teacup thay bread-and-butter, chỉ hỗ trợ hai món đồ. Top-3 không có lời giải thích hadn’t quite finished my tea when I was sent for hoặc cảnh xuất hiện đầu tiên; thiếu vế vì sao."
+    },
+    {
+      "id": "grounding-10",
+      "score": 2,
+      "reason": "Top-2 unit 60 ghi Hatter là first witness, mang teacup và bread-and-butter vì chưa uống trà xong khi được gọi. Top-1 nhầm sang lúc rời tòa nhưng hợp top-3 đủ cả đồ vật lẫn lý do."
+    },
+    {
+      "id": "grounding-11",
+      "score": 2,
+      "reason": "Top-2 unit 60 ghi Hatter là first witness, mang teacup và bread-and-butter vì chưa uống trà xong khi được gọi. Top-1 nhầm sang lúc rời tòa nhưng hợp top-3 đủ cả đồ vật lẫn lý do. Câu này không có filter; top-3 C trùng B nên giữ cùng đánh giá."
+    },
+    {
+      "id": "grounding-12",
+      "score": 2,
+      "reason": "Top-1 unit 65 nêu Rule Forty-two và đủ điều kiện All persons more than a mile high to leave the court. Dù cắt phần dẫn trước King nên không khớp nguyên gold, số điều luật, ngưỡng và yêu cầu rời tòa đều đủ."
+    },
+    {
+      "id": "grounding-13",
+      "score": 2,
+      "reason": "Top-1 unit 65 giữ cảnh King đọc Rule Forty-two, ngưỡng hơn một mile và yêu cầu rời court, kèm đối đáp Alice. Đủ trả lời và truy nguồn."
+    },
+    {
+      "id": "grounding-14",
+      "score": 2,
+      "reason": "Top-1 unit 65 giữ cảnh King đọc Rule Forty-two, ngưỡng hơn một mile và yêu cầu rời court, kèm đối đáp Alice. Đủ trả lời và truy nguồn. Câu này không có filter; top-3 C trùng B nên giữ cùng đánh giá."
+    },
+    {
+      "id": "metadata-0",
+      "score": 1,
+      "reason": "Q16, top-1: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 51, chapter 9 (The Mock Turtle’s Story) đúng nguồn; text khớp nguyên văn lát [700:1500] của unit; language và ranh giới unit trong chương đều khớp."
+    },
+    {
+      "id": "metadata-1",
+      "score": 1,
+      "reason": "Q16, top-2: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 52, chapter 9 (The Mock Turtle’s Story) đúng nguồn; text khớp nguyên văn lát [1400:2200] của unit; language và ranh giới unit trong chương đều khớp."
+    },
+    {
+      "id": "metadata-2",
+      "score": 1,
+      "reason": "Q16, top-3: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 55, chapter 10 (The Lobster Quadrille) đúng nguồn; text khớp nguyên văn lát [0:800] của unit; language và ranh giới unit trong chương đều khớp."
+    },
+    {
+      "id": "metadata-3",
+      "score": 1,
+      "reason": "Q16, top-1: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 51, chapter 9 (The Mock Turtle’s Story) đúng nguồn; text khớp nguyên văn lát [575:1312] của unit; language và ranh giới unit trong chương đều khớp."
+    },
+    {
+      "id": "metadata-4",
+      "score": 1,
+      "reason": "Q16, top-2: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 52, chapter 9 (The Mock Turtle’s Story) đúng nguồn; text khớp nguyên văn lát [1446:2210] của unit; language và ranh giới unit trong chương đều khớp."
+    },
+    {
+      "id": "metadata-5",
+      "score": 1,
+      "reason": "Q16, top-3: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 51, chapter 9 (The Mock Turtle’s Story) đúng nguồn; text khớp nguyên văn lát [0:573] của unit; language và ranh giới unit trong chương đều khớp."
+    },
+    {
+      "id": "metadata-6",
+      "score": 1,
+      "reason": "Q16, top-1: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 51, chapter 9 (The Mock Turtle’s Story) đúng nguồn; text khớp nguyên văn lát [575:1312] của unit; language và ranh giới unit trong chương đều khớp."
+    },
+    {
+      "id": "metadata-7",
+      "score": 1,
+      "reason": "Q16, top-2: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 52, chapter 9 (The Mock Turtle’s Story) đúng nguồn; text khớp nguyên văn lát [1446:2210] của unit; language và ranh giới unit trong chương đều khớp."
+    },
+    {
+      "id": "metadata-8",
+      "score": 1,
+      "reason": "Q16, top-3: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 51, chapter 9 (The Mock Turtle’s Story) đúng nguồn; text khớp nguyên văn lát [0:573] của unit; language và ranh giới unit trong chương đều khớp."
+    },
+    {
+      "id": "metadata-9",
+      "score": 1,
+      "reason": "Q17, top-1: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 52, chapter 9 (The Mock Turtle’s Story) đúng nguồn; text khớp nguyên văn lát [2100:2900] của unit; language và ranh giới unit trong chương đều khớp."
+    },
+    {
+      "id": "metadata-10",
+      "score": 1,
+      "reason": "Q17, top-2: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 36, chapter 7 (A Mad Tea-Party) đúng nguồn; text khớp nguyên văn lát [1400:1864] của unit; language và ranh giới unit trong chương đều khớp."
+    },
+    {
+      "id": "metadata-11",
+      "score": 1,
+      "reason": "Q17, top-3: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 52, chapter 9 (The Mock Turtle’s Story) đúng nguồn; text khớp nguyên văn lát [0:800] của unit; language và ranh giới unit trong chương đều khớp."
+    },
+    {
+      "id": "metadata-12",
+      "score": 1,
+      "reason": "Q17, top-1: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 52, chapter 9 (The Mock Turtle’s Story) đúng nguồn; text khớp nguyên văn lát [2212:2912] của unit; language và ranh giới unit trong chương đều khớp."
+    },
+    {
+      "id": "metadata-13",
+      "score": 1,
+      "reason": "Q17, top-2: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 52, chapter 9 (The Mock Turtle’s Story) đúng nguồn; text khớp nguyên văn lát [0:748] của unit; language và ranh giới unit trong chương đều khớp."
+    },
+    {
+      "id": "metadata-14",
+      "score": 1,
+      "reason": "Q17, top-3: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 36, chapter 7 (A Mad Tea-Party) đúng nguồn; text khớp nguyên văn lát [1209:1864] của unit; language và ranh giới unit trong chương đều khớp."
+    },
+    {
+      "id": "metadata-15",
+      "score": 1,
+      "reason": "Q17, top-1: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 52, chapter 9 (The Mock Turtle’s Story) đúng nguồn; text khớp nguyên văn lát [2212:2912] của unit; language và ranh giới unit trong chương đều khớp."
+    },
+    {
+      "id": "metadata-16",
+      "score": 1,
+      "reason": "Q17, top-2: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 52, chapter 9 (The Mock Turtle’s Story) đúng nguồn; text khớp nguyên văn lát [0:748] của unit; language và ranh giới unit trong chương đều khớp."
+    },
+    {
+      "id": "metadata-17",
+      "score": 1,
+      "reason": "Q17, top-3: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 36, chapter 7 (A Mad Tea-Party) đúng nguồn; text khớp nguyên văn lát [1209:1864] của unit; language và ranh giới unit trong chương đều khớp."
+    },
+    {
+      "id": "metadata-18",
+      "score": 1,
+      "reason": "Q18, top-1: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 56, chapter 10 (The Lobster Quadrille) đúng nguồn; text khớp nguyên văn lát [0:800] của unit; language và ranh giới unit trong chương đều khớp."
+    },
+    {
+      "id": "metadata-19",
+      "score": 1,
+      "reason": "Q18, top-2: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 53, chapter 10 (The Lobster Quadrille) đúng nguồn; text khớp nguyên văn lát [700:1500] của unit; language và ranh giới unit trong chương đều khớp."
+    },
+    {
+      "id": "metadata-20",
+      "score": 1,
+      "reason": "Q18, top-3: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 52, chapter 9 (The Mock Turtle’s Story) đúng nguồn; text khớp nguyên văn lát [1400:2200] của unit; language và ranh giới unit trong chương đều khớp. Hit nằm ngoài chương X được hỏi, nhưng trường chapter phản ánh đúng nguồn; lỗi được ghi riêng ở filter compliance, không phải metadata bị gán sai."
+    },
+    {
+      "id": "metadata-21",
+      "score": 1,
+      "reason": "Q18, top-1: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 56, chapter 10 (The Lobster Quadrille) đúng nguồn; text khớp nguyên văn lát [0:668] của unit; language và ranh giới unit trong chương đều khớp."
+    },
+    {
+      "id": "metadata-22",
+      "score": 1,
+      "reason": "Q18, top-2: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 53, chapter 10 (The Lobster Quadrille) đúng nguồn; text khớp nguyên văn lát [746:1517] của unit; language và ranh giới unit trong chương đều khớp."
+    },
+    {
+      "id": "metadata-23",
+      "score": 1,
+      "reason": "Q18, top-3: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 51, chapter 9 (The Mock Turtle’s Story) đúng nguồn; text khớp nguyên văn lát [1314:1871] của unit; language và ranh giới unit trong chương đều khớp. Hit nằm ngoài chương X được hỏi, nhưng trường chapter phản ánh đúng nguồn; lỗi được ghi riêng ở filter compliance, không phải metadata bị gán sai."
+    },
+    {
+      "id": "metadata-24",
+      "score": 1,
+      "reason": "Q18, top-1: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 56, chapter 10 (The Lobster Quadrille) đúng nguồn; text khớp nguyên văn lát [0:668] của unit; language và ranh giới unit trong chương đều khớp."
+    },
+    {
+      "id": "metadata-25",
+      "score": 1,
+      "reason": "Q18, top-2: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 53, chapter 10 (The Lobster Quadrille) đúng nguồn; text khớp nguyên văn lát [746:1517] của unit; language và ranh giới unit trong chương đều khớp."
+    },
+    {
+      "id": "metadata-26",
+      "score": 1,
+      "reason": "Q18, top-3: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 55, chapter 10 (The Lobster Quadrille) đúng nguồn; text khớp nguyên văn lát [0:681] của unit; language và ranh giới unit trong chương đều khớp."
+    },
+    {
+      "id": "metadata-27",
+      "score": 1,
+      "reason": "Q19, top-1: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 61, chapter 11 (Who Stole the Tarts?) đúng nguồn; text khớp nguyên văn lát [700:1500] của unit; language và ranh giới unit trong chương đều khớp."
+    },
+    {
+      "id": "metadata-28",
+      "score": 1,
+      "reason": "Q19, top-2: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 63, chapter 11 (Who Stole the Tarts?) đúng nguồn; text khớp nguyên văn lát [700:1500] của unit; language và ranh giới unit trong chương đều khớp."
+    },
+    {
+      "id": "metadata-29",
+      "score": 1,
+      "reason": "Q19, top-3: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 61, chapter 11 (Who Stole the Tarts?) đúng nguồn; text khớp nguyên văn lát [0:800] của unit; language và ranh giới unit trong chương đều khớp."
+    },
+    {
+      "id": "metadata-30",
+      "score": 1,
+      "reason": "Q19, top-1: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 63, chapter 11 (Who Stole the Tarts?) đúng nguồn; text khớp nguyên văn lát [711:1416] của unit; language và ranh giới unit trong chương đều khớp."
+    },
+    {
+      "id": "metadata-31",
+      "score": 1,
+      "reason": "Q19, top-2: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 60, chapter 11 (Who Stole the Tarts?) đúng nguồn; text khớp nguyên văn lát [1501:2018] của unit; language và ranh giới unit trong chương đều khớp."
+    },
+    {
+      "id": "metadata-32",
+      "score": 1,
+      "reason": "Q19, top-3: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 61, chapter 11 (Who Stole the Tarts?) đúng nguồn; text khớp nguyên văn lát [757:1496] của unit; language và ranh giới unit trong chương đều khớp."
+    },
+    {
+      "id": "metadata-33",
+      "score": 1,
+      "reason": "Q19, top-1: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 63, chapter 11 (Who Stole the Tarts?) đúng nguồn; text khớp nguyên văn lát [711:1416] của unit; language và ranh giới unit trong chương đều khớp."
+    },
+    {
+      "id": "metadata-34",
+      "score": 1,
+      "reason": "Q19, top-2: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 60, chapter 11 (Who Stole the Tarts?) đúng nguồn; text khớp nguyên văn lát [1501:2018] của unit; language và ranh giới unit trong chương đều khớp."
+    },
+    {
+      "id": "metadata-35",
+      "score": 1,
+      "reason": "Q19, top-3: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 61, chapter 11 (Who Stole the Tarts?) đúng nguồn; text khớp nguyên văn lát [757:1496] của unit; language và ranh giới unit trong chương đều khớp."
+    },
+    {
+      "id": "metadata-36",
+      "score": 1,
+      "reason": "Q20, top-1: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 65, chapter 12 (Alice’s Evidence) đúng nguồn; text khớp nguyên văn lát [700:1500] của unit; language và ranh giới unit trong chương đều khớp."
+    },
+    {
+      "id": "metadata-37",
+      "score": 1,
+      "reason": "Q20, top-2: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 49, chapter 9 (The Mock Turtle’s Story) đúng nguồn; text khớp nguyên văn lát [1400:2101] của unit; language và ranh giới unit trong chương đều khớp."
+    },
+    {
+      "id": "metadata-38",
+      "score": 1,
+      "reason": "Q20, top-3: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 63, chapter 11 (Who Stole the Tarts?) đúng nguồn; text khớp nguyên văn lát [0:800] của unit; language và ranh giới unit trong chương đều khớp."
+    },
+    {
+      "id": "metadata-39",
+      "score": 1,
+      "reason": "Q20, top-1: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 65, chapter 12 (Alice’s Evidence) đúng nguồn; text khớp nguyên văn lát [682:1365] của unit; language và ranh giới unit trong chương đều khớp."
+    },
+    {
+      "id": "metadata-40",
+      "score": 1,
+      "reason": "Q20, top-2: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 49, chapter 9 (The Mock Turtle’s Story) đúng nguồn; text khớp nguyên văn lát [1417:2101] của unit; language và ranh giới unit trong chương đều khớp."
+    },
+    {
+      "id": "metadata-41",
+      "score": 1,
+      "reason": "Q20, top-3: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 63, chapter 11 (Who Stole the Tarts?) đúng nguồn; text khớp nguyên văn lát [0:709] của unit; language và ranh giới unit trong chương đều khớp."
+    },
+    {
+      "id": "metadata-42",
+      "score": 1,
+      "reason": "Q20, top-1: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 65, chapter 12 (Alice’s Evidence) đúng nguồn; text khớp nguyên văn lát [682:1365] của unit; language và ranh giới unit trong chương đều khớp."
+    },
+    {
+      "id": "metadata-43",
+      "score": 1,
+      "reason": "Q20, top-2: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 49, chapter 9 (The Mock Turtle’s Story) đúng nguồn; text khớp nguyên văn lát [1417:2101] của unit; language và ranh giới unit trong chương đều khớp."
+    },
+    {
+      "id": "metadata-44",
+      "score": 1,
+      "reason": "Q20, top-3: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 63, chapter 11 (Who Stole the Tarts?) đúng nguồn; text khớp nguyên văn lát [0:709] của unit; language và ranh giới unit trong chương đều khớp."
+    }
+  ]
+}

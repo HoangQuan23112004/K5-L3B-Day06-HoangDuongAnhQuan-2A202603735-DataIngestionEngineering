@@ -1,0 +1,558 @@
+﻿strategy,question_id,rank,chunk_id,metadata_json,text,correct_0_1,reason,reviewer
+A,Q16,1,60764f053f7c30c9fd8d9fc43ee6ad5d82c655a2eb56c3a3c6841e66cac95c29,"{""chapter"": 9, ""chapter_title"": ""The Mock Turtle’s Story"", ""language"": ""en"", ""chapter_start"": 7808, ""chapter_end"": 9679, ""start"": 700, ""end"": 1500, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 51}","d the constant heavy sobbing of the Mock Turtle. Alice was very nearly getting up and saying, “Thank you, sir, for your interesting story,” but she could not help thinking there _must_ be more to come, so she sat still and said nothing.
+
+“When we were little,” the Mock Turtle went on at last, more calmly, though still sobbing a little now and then, “we went to school in the sea. The master was an old Turtle—we used to call him Tortoise—”
+
+“Why did you call him Tortoise, if he wasn’t one?” Alice asked.
+
+“We called him Tortoise because he taught us,” said the Mock Turtle angrily: “really you are very dull!”
+
+“You ought to be ashamed of yourself for asking such a simple question,” added the Gryphon; and then they both sat silent and looked at poor Alice, who felt ready to sink into the earth.",1,"Q16, top-1: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 51, chapter 9 (The Mock Turtle’s Story) đúng nguồn; text khớp nguyên văn lát [700:1500] của unit; language và ranh giới unit trong chương đều khớp.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+A,Q16,2,68df00bfdeb5605ab32e3199a45aecea2a2ae51f278284514b223855ecf33221,"{""chapter"": 9, ""chapter_title"": ""The Mock Turtle’s Story"", ""language"": ""en"", ""chapter_start"": 9681, ""chapter_end"": 12593, ""start"": 1400, ""end"": 2200, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 52}","rtle, and said “What else had you to learn?”
+
+“Well, there was Mystery,” the Mock Turtle replied, counting off the subjects on his flappers, “—Mystery, ancient and modern, with Seaography: then Drawling—the Drawling-master was an old conger-eel, that used to come once a week: _he_ taught us Drawling, Stretching, and Fainting in Coils.”
+
+“What was _that_ like?” said Alice.
+
+“Well, I can’t show it you myself,” the Mock Turtle said: “I’m too stiff. And the Gryphon never learnt it.”
+
+“Hadn’t time,” said the Gryphon: “I went to the Classics master, though. He was an old crab, _he_ was.”
+
+“I never went to him,” the Mock Turtle said with a sigh: “he taught Laughing and Grief, they used to say.”
+
+“So he did, so he did,” said the Gryphon, sighing in his turn; and both creatures hid their faces in t",1,"Q16, top-2: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 52, chapter 9 (The Mock Turtle’s Story) đúng nguồn; text khớp nguyên văn lát [1400:2200] của unit; language và ranh giới unit trong chương đều khớp.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+A,Q16,3,f6c206ff2f188198a6c5a8c0868283bf8a588cc0b4e51c16f24fc94173b70469,"{""chapter"": 10, ""chapter_title"": ""The Lobster Quadrille"", ""language"": ""en"", ""chapter_start"": 3733, ""chapter_end"": 5584, ""start"": 0, ""end"": 800, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 55}","“Oh, as to the whiting,” said the Mock Turtle, “they—you’ve seen them, of course?”
+
+“Yes,” said Alice, “I’ve often seen them at dinn—” she checked herself hastily.
+
+“I don’t know where Dinn may be,” said the Mock Turtle, “but if you’ve seen them so often, of course you know what they’re like.”
+
+“I believe so,” Alice replied thoughtfully. “They have their tails in their mouths—and they’re all over crumbs.”
+
+“You’re wrong about the crumbs,” said the Mock Turtle: “crumbs would all wash off in the sea. But they _have_ their tails in their mouths; and the reason is—” here the Mock Turtle yawned and shut his eyes.—“Tell her about the reason and all that,” he said to the Gryphon.
+
+“The reason is,” said the Gryphon, “that they _would_ go with the lobsters to the dance. So they got thrown out to se",1,"Q16, top-3: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 55, chapter 10 (The Lobster Quadrille) đúng nguồn; text khớp nguyên văn lát [0:800] của unit; language và ranh giới unit trong chương đều khớp.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+B,Q16,1,e245e71c07b520ab1b1b24d30f4a51b753d4e19a453e533afaadc5b1898493fe,"{""chapter"": 9, ""chapter_title"": ""The Mock Turtle’s Story"", ""language"": ""en"", ""chapter_start"": 7808, ""chapter_end"": 9679, ""start"": 575, ""end"": 1312, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 51}","These words were followed by a very long silence, broken only by an occasional exclamation of “Hjckrrh!” from the Gryphon, and the constant heavy sobbing of the Mock Turtle. Alice was very nearly getting up and saying, “Thank you, sir, for your interesting story,” but she could not help thinking there _must_ be more to come, so she sat still and said nothing.
+
+“When we were little,” the Mock Turtle went on at last, more calmly, though still sobbing a little now and then, “we went to school in the sea. The master was an old Turtle—we used to call him Tortoise—”
+
+“Why did you call him Tortoise, if he wasn’t one?” Alice asked.
+
+“We called him Tortoise because he taught us,” said the Mock Turtle angrily: “really you are very dull!”",1,"Q16, top-1: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 51, chapter 9 (The Mock Turtle’s Story) đúng nguồn; text khớp nguyên văn lát [575:1312] của unit; language và ranh giới unit trong chương đều khớp.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+B,Q16,2,2e65c51a71178b29e38d11d2a8b4bb1afa32990c8ad251a6131976053222b41c,"{""chapter"": 9, ""chapter_title"": ""The Mock Turtle’s Story"", ""language"": ""en"", ""chapter_start"": 9681, ""chapter_end"": 12593, ""start"": 1446, ""end"": 2210, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 52}","“Well, there was Mystery,” the Mock Turtle replied, counting off the subjects on his flappers, “—Mystery, ancient and modern, with Seaography: then Drawling—the Drawling-master was an old conger-eel, that used to come once a week: _he_ taught us Drawling, Stretching, and Fainting in Coils.”
+
+“What was _that_ like?” said Alice.
+
+“Well, I can’t show it you myself,” the Mock Turtle said: “I’m too stiff. And the Gryphon never learnt it.”
+
+“Hadn’t time,” said the Gryphon: “I went to the Classics master, though. He was an old crab, _he_ was.”
+
+“I never went to him,” the Mock Turtle said with a sigh: “he taught Laughing and Grief, they used to say.”
+
+“So he did, so he did,” said the Gryphon, sighing in his turn; and both creatures hid their faces in their paws.",1,"Q16, top-2: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 52, chapter 9 (The Mock Turtle’s Story) đúng nguồn; text khớp nguyên văn lát [1446:2210] của unit; language và ranh giới unit trong chương đều khớp.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+B,Q16,3,53ff70a73b8fb1977d57132740ada7a7f04041e2c5c05a0a0e0627d56dc593ab,"{""chapter"": 9, ""chapter_title"": ""The Mock Turtle’s Story"", ""language"": ""en"", ""chapter_start"": 7808, ""chapter_end"": 9679, ""start"": 0, ""end"": 573, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 51}","So they went up to the Mock Turtle, who looked at them with large eyes full of tears, but said nothing.
+
+“This here young lady,” said the Gryphon, “she wants for to know your history, she do.”
+
+“I’ll tell it her,” said the Mock Turtle in a deep, hollow tone: “sit down, both of you, and don’t speak a word till I’ve finished.”
+
+So they sat down, and nobody spoke for some minutes. Alice thought to herself, “I don’t see how he can _ever_ finish, if he doesn’t begin.” But she waited patiently.
+
+“Once,” said the Mock Turtle at last, with a deep sigh, “I was a real Turtle.”",1,"Q16, top-3: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 51, chapter 9 (The Mock Turtle’s Story) đúng nguồn; text khớp nguyên văn lát [0:573] của unit; language và ranh giới unit trong chương đều khớp.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+C,Q16,1,e245e71c07b520ab1b1b24d30f4a51b753d4e19a453e533afaadc5b1898493fe,"{""chapter"": 9, ""chapter_title"": ""The Mock Turtle’s Story"", ""language"": ""en"", ""chapter_start"": 7808, ""chapter_end"": 9679, ""start"": 575, ""end"": 1312, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 51}","These words were followed by a very long silence, broken only by an occasional exclamation of “Hjckrrh!” from the Gryphon, and the constant heavy sobbing of the Mock Turtle. Alice was very nearly getting up and saying, “Thank you, sir, for your interesting story,” but she could not help thinking there _must_ be more to come, so she sat still and said nothing.
+
+“When we were little,” the Mock Turtle went on at last, more calmly, though still sobbing a little now and then, “we went to school in the sea. The master was an old Turtle—we used to call him Tortoise—”
+
+“Why did you call him Tortoise, if he wasn’t one?” Alice asked.
+
+“We called him Tortoise because he taught us,” said the Mock Turtle angrily: “really you are very dull!”",1,"Q16, top-1: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 51, chapter 9 (The Mock Turtle’s Story) đúng nguồn; text khớp nguyên văn lát [575:1312] của unit; language và ranh giới unit trong chương đều khớp.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+C,Q16,2,2e65c51a71178b29e38d11d2a8b4bb1afa32990c8ad251a6131976053222b41c,"{""chapter"": 9, ""chapter_title"": ""The Mock Turtle’s Story"", ""language"": ""en"", ""chapter_start"": 9681, ""chapter_end"": 12593, ""start"": 1446, ""end"": 2210, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 52}","“Well, there was Mystery,” the Mock Turtle replied, counting off the subjects on his flappers, “—Mystery, ancient and modern, with Seaography: then Drawling—the Drawling-master was an old conger-eel, that used to come once a week: _he_ taught us Drawling, Stretching, and Fainting in Coils.”
+
+“What was _that_ like?” said Alice.
+
+“Well, I can’t show it you myself,” the Mock Turtle said: “I’m too stiff. And the Gryphon never learnt it.”
+
+“Hadn’t time,” said the Gryphon: “I went to the Classics master, though. He was an old crab, _he_ was.”
+
+“I never went to him,” the Mock Turtle said with a sigh: “he taught Laughing and Grief, they used to say.”
+
+“So he did, so he did,” said the Gryphon, sighing in his turn; and both creatures hid their faces in their paws.",1,"Q16, top-2: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 52, chapter 9 (The Mock Turtle’s Story) đúng nguồn; text khớp nguyên văn lát [1446:2210] của unit; language và ranh giới unit trong chương đều khớp.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+C,Q16,3,53ff70a73b8fb1977d57132740ada7a7f04041e2c5c05a0a0e0627d56dc593ab,"{""chapter"": 9, ""chapter_title"": ""The Mock Turtle’s Story"", ""language"": ""en"", ""chapter_start"": 7808, ""chapter_end"": 9679, ""start"": 0, ""end"": 573, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 51}","So they went up to the Mock Turtle, who looked at them with large eyes full of tears, but said nothing.
+
+“This here young lady,” said the Gryphon, “she wants for to know your history, she do.”
+
+“I’ll tell it her,” said the Mock Turtle in a deep, hollow tone: “sit down, both of you, and don’t speak a word till I’ve finished.”
+
+So they sat down, and nobody spoke for some minutes. Alice thought to herself, “I don’t see how he can _ever_ finish, if he doesn’t begin.” But she waited patiently.
+
+“Once,” said the Mock Turtle at last, with a deep sigh, “I was a real Turtle.”",1,"Q16, top-3: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 51, chapter 9 (The Mock Turtle’s Story) đúng nguồn; text khớp nguyên văn lát [0:573] của unit; language và ranh giới unit trong chương đều khớp.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+A,Q17,1,39894a091421865d85695d199b5706701518330a3f141df220b7aa51930ed450,"{""chapter"": 9, ""chapter_title"": ""The Mock Turtle’s Story"", ""language"": ""en"", ""chapter_start"": 9681, ""chapter_end"": 12593, ""start"": 2100, ""end"": 2900, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 52}","o he did, so he did,” said the Gryphon, sighing in his turn; and both creatures hid their faces in their paws.
+
+“And how many hours a day did you do lessons?” said Alice, in a hurry to change the subject.
+
+“Ten hours the first day,” said the Mock Turtle: “nine the next, and so on.”
+
+“What a curious plan!” exclaimed Alice.
+
+“That’s the reason they’re called lessons,” the Gryphon remarked: “because they lessen from day to day.”
+
+This was quite a new idea to Alice, and she thought it over a little before she made her next remark. “Then the eleventh day must have been a holiday?”
+
+“Of course it was,” said the Mock Turtle.
+
+“And how did you manage on the twelfth?” Alice went on eagerly.
+
+“That’s enough about lessons,” the Gryphon interrupted in a very decided tone: “tell her something about the",1,"Q17, top-1: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 52, chapter 9 (The Mock Turtle’s Story) đúng nguồn; text khớp nguyên văn lát [2100:2900] của unit; language và ranh giới unit trong chương đều khớp.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+A,Q17,2,33818ff157bba08b2122525a247fc4c0e80effcafbe681226013ab8e6c583ebb,"{""chapter"": 7, ""chapter_title"": ""A Mad Tea-Party"", ""language"": ""en"", ""chapter_start"": 3744, ""chapter_end"": 5608, ""start"": 1400, ""end"": 1864, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 36}","were nine o’clock in the morning, just time to begin lessons: you’d only have to whisper a hint to Time, and round goes the clock in a twinkling! Half-past one, time for dinner!”
+
+(“I only wish it was,” the March Hare said to itself in a whisper.)
+
+“That would be grand, certainly,” said Alice thoughtfully: “but then—I shouldn’t be hungry for it, you know.”
+
+“Not at first, perhaps,” said the Hatter: “but you could keep it to half-past one as long as you liked.”",1,"Q17, top-2: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 36, chapter 7 (A Mad Tea-Party) đúng nguồn; text khớp nguyên văn lát [1400:1864] của unit; language và ranh giới unit trong chương đều khớp.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+A,Q17,3,2f6558b101e80fe3baadc5c4c0a171e7286b2e6d31e35bd3dd7281d89f8bc2fc,"{""chapter"": 9, ""chapter_title"": ""The Mock Turtle’s Story"", ""language"": ""en"", ""chapter_start"": 9681, ""chapter_end"": 12593, ""start"": 0, ""end"": 800, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 52}","“We had the best of educations—in fact, we went to school every day—”
+
+“_I’ve_ been to a day-school, too,” said Alice; “you needn’t be so proud as all that.”
+
+“With extras?” asked the Mock Turtle a little anxiously.
+
+“Yes,” said Alice, “we learned French and music.”
+
+“And washing?” said the Mock Turtle.
+
+“Certainly not!” said Alice indignantly.
+
+“Ah! then yours wasn’t a really good school,” said the Mock Turtle in a tone of great relief. “Now at _ours_ they had at the end of the bill, ‘French, music, _and washing_—extra.’”
+
+“You couldn’t have wanted it much,” said Alice; “living at the bottom of the sea.”
+
+“I couldn’t afford to learn it.” said the Mock Turtle with a sigh. “I only took the regular course.”
+
+“What was that?” inquired Alice.
+
+“Reeling and Writhing, of course, to begin with,” ",1,"Q17, top-3: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 52, chapter 9 (The Mock Turtle’s Story) đúng nguồn; text khớp nguyên văn lát [0:800] của unit; language và ranh giới unit trong chương đều khớp.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+B,Q17,1,cb275c9246a58fcb0502f0c59b602ae49ca262ce38b4903c149974477c54dcf0,"{""chapter"": 9, ""chapter_title"": ""The Mock Turtle’s Story"", ""language"": ""en"", ""chapter_start"": 9681, ""chapter_end"": 12593, ""start"": 2212, ""end"": 2912, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 52}","“And how many hours a day did you do lessons?” said Alice, in a hurry to change the subject.
+
+“Ten hours the first day,” said the Mock Turtle: “nine the next, and so on.”
+
+“What a curious plan!” exclaimed Alice.
+
+“That’s the reason they’re called lessons,” the Gryphon remarked: “because they lessen from day to day.”
+
+This was quite a new idea to Alice, and she thought it over a little before she made her next remark. “Then the eleventh day must have been a holiday?”
+
+“Of course it was,” said the Mock Turtle.
+
+“And how did you manage on the twelfth?” Alice went on eagerly.
+
+“That’s enough about lessons,” the Gryphon interrupted in a very decided tone: “tell her something about the games now.”",1,"Q17, top-1: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 52, chapter 9 (The Mock Turtle’s Story) đúng nguồn; text khớp nguyên văn lát [2212:2912] của unit; language và ranh giới unit trong chương đều khớp.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+B,Q17,2,fb6fa85990fd06624ae66c8dc1de3079da7b8ee0a49562b71e33b206e7cdfd11,"{""chapter"": 9, ""chapter_title"": ""The Mock Turtle’s Story"", ""language"": ""en"", ""chapter_start"": 9681, ""chapter_end"": 12593, ""start"": 0, ""end"": 748, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 52}","“We had the best of educations—in fact, we went to school every day—”
+
+“_I’ve_ been to a day-school, too,” said Alice; “you needn’t be so proud as all that.”
+
+“With extras?” asked the Mock Turtle a little anxiously.
+
+“Yes,” said Alice, “we learned French and music.”
+
+“And washing?” said the Mock Turtle.
+
+“Certainly not!” said Alice indignantly.
+
+“Ah! then yours wasn’t a really good school,” said the Mock Turtle in a tone of great relief. “Now at _ours_ they had at the end of the bill, ‘French, music, _and washing_—extra.’”
+
+“You couldn’t have wanted it much,” said Alice; “living at the bottom of the sea.”
+
+“I couldn’t afford to learn it.” said the Mock Turtle with a sigh. “I only took the regular course.”
+
+“What was that?” inquired Alice.",1,"Q17, top-2: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 52, chapter 9 (The Mock Turtle’s Story) đúng nguồn; text khớp nguyên văn lát [0:748] của unit; language và ranh giới unit trong chương đều khớp.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+B,Q17,3,ba7bb43912346457d897567b00fd7bb0275a8cecf27ec21120d48d9c11a9d831,"{""chapter"": 7, ""chapter_title"": ""A Mad Tea-Party"", ""language"": ""en"", ""chapter_start"": 3744, ""chapter_end"": 5608, ""start"": 1209, ""end"": 1864, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 36}","“Ah! that accounts for it,” said the Hatter. “He won’t stand beating. Now, if you only kept on good terms with him, he’d do almost anything you liked with the clock. For instance, suppose it were nine o’clock in the morning, just time to begin lessons: you’d only have to whisper a hint to Time, and round goes the clock in a twinkling! Half-past one, time for dinner!”
+
+(“I only wish it was,” the March Hare said to itself in a whisper.)
+
+“That would be grand, certainly,” said Alice thoughtfully: “but then—I shouldn’t be hungry for it, you know.”
+
+“Not at first, perhaps,” said the Hatter: “but you could keep it to half-past one as long as you liked.”",1,"Q17, top-3: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 36, chapter 7 (A Mad Tea-Party) đúng nguồn; text khớp nguyên văn lát [1209:1864] của unit; language và ranh giới unit trong chương đều khớp.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+C,Q17,1,cb275c9246a58fcb0502f0c59b602ae49ca262ce38b4903c149974477c54dcf0,"{""chapter"": 9, ""chapter_title"": ""The Mock Turtle’s Story"", ""language"": ""en"", ""chapter_start"": 9681, ""chapter_end"": 12593, ""start"": 2212, ""end"": 2912, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 52}","“And how many hours a day did you do lessons?” said Alice, in a hurry to change the subject.
+
+“Ten hours the first day,” said the Mock Turtle: “nine the next, and so on.”
+
+“What a curious plan!” exclaimed Alice.
+
+“That’s the reason they’re called lessons,” the Gryphon remarked: “because they lessen from day to day.”
+
+This was quite a new idea to Alice, and she thought it over a little before she made her next remark. “Then the eleventh day must have been a holiday?”
+
+“Of course it was,” said the Mock Turtle.
+
+“And how did you manage on the twelfth?” Alice went on eagerly.
+
+“That’s enough about lessons,” the Gryphon interrupted in a very decided tone: “tell her something about the games now.”",1,"Q17, top-1: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 52, chapter 9 (The Mock Turtle’s Story) đúng nguồn; text khớp nguyên văn lát [2212:2912] của unit; language và ranh giới unit trong chương đều khớp.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+C,Q17,2,fb6fa85990fd06624ae66c8dc1de3079da7b8ee0a49562b71e33b206e7cdfd11,"{""chapter"": 9, ""chapter_title"": ""The Mock Turtle’s Story"", ""language"": ""en"", ""chapter_start"": 9681, ""chapter_end"": 12593, ""start"": 0, ""end"": 748, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 52}","“We had the best of educations—in fact, we went to school every day—”
+
+“_I’ve_ been to a day-school, too,” said Alice; “you needn’t be so proud as all that.”
+
+“With extras?” asked the Mock Turtle a little anxiously.
+
+“Yes,” said Alice, “we learned French and music.”
+
+“And washing?” said the Mock Turtle.
+
+“Certainly not!” said Alice indignantly.
+
+“Ah! then yours wasn’t a really good school,” said the Mock Turtle in a tone of great relief. “Now at _ours_ they had at the end of the bill, ‘French, music, _and washing_—extra.’”
+
+“You couldn’t have wanted it much,” said Alice; “living at the bottom of the sea.”
+
+“I couldn’t afford to learn it.” said the Mock Turtle with a sigh. “I only took the regular course.”
+
+“What was that?” inquired Alice.",1,"Q17, top-2: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 52, chapter 9 (The Mock Turtle’s Story) đúng nguồn; text khớp nguyên văn lát [0:748] của unit; language và ranh giới unit trong chương đều khớp.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+C,Q17,3,ba7bb43912346457d897567b00fd7bb0275a8cecf27ec21120d48d9c11a9d831,"{""chapter"": 7, ""chapter_title"": ""A Mad Tea-Party"", ""language"": ""en"", ""chapter_start"": 3744, ""chapter_end"": 5608, ""start"": 1209, ""end"": 1864, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 36}","“Ah! that accounts for it,” said the Hatter. “He won’t stand beating. Now, if you only kept on good terms with him, he’d do almost anything you liked with the clock. For instance, suppose it were nine o’clock in the morning, just time to begin lessons: you’d only have to whisper a hint to Time, and round goes the clock in a twinkling! Half-past one, time for dinner!”
+
+(“I only wish it was,” the March Hare said to itself in a whisper.)
+
+“That would be grand, certainly,” said Alice thoughtfully: “but then—I shouldn’t be hungry for it, you know.”
+
+“Not at first, perhaps,” said the Hatter: “but you could keep it to half-past one as long as you liked.”",1,"Q17, top-3: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 36, chapter 7 (A Mad Tea-Party) đúng nguồn; text khớp nguyên văn lát [1209:1864] của unit; language và ranh giới unit trong chương đều khớp.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+A,Q18,1,a1cadc4202856f49efa197fec403a110785c9bf5fadf0fb609f56de47a6d9084,"{""chapter"": 10, ""chapter_title"": ""The Lobster Quadrille"", ""language"": ""en"", ""chapter_start"": 5586, ""chapter_end"": 7407, ""start"": 0, ""end"": 800, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 56}","“If I’d been the whiting,” said Alice, whose thoughts were still running on the song, “I’d have said to the porpoise, ‘Keep back, please: we don’t want _you_ with us!’”
+
+“They were obliged to have him with them,” the Mock Turtle said: “no wise fish would go anywhere without a porpoise.”
+
+“Wouldn’t it really?” said Alice in a tone of great surprise.
+
+“Of course not,” said the Mock Turtle: “why, if a fish came to _me_, and told me he was going a journey, I should say ‘With what porpoise?’”
+
+“Don’t you mean ‘purpose’?” said Alice.
+
+“I mean what I say,” the Mock Turtle replied in an offended tone. And the Gryphon added “Come, let’s hear some of _your_ adventures.”
+
+“I could tell you my adventures—beginning from this morning,” said Alice a little timidly: “but it’s no use going back to yesterda",1,"Q18, top-1: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 56, chapter 10 (The Lobster Quadrille) đúng nguồn; text khớp nguyên văn lát [0:800] của unit; language và ranh giới unit trong chương đều khớp.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+A,Q18,2,2c175b7fbea94ec170f63bac264ba5dc6394a95104bd18eefeb282a2ec6bce43,"{""chapter"": 10, ""chapter_title"": ""The Lobster Quadrille"", ""language"": ""en"", ""chapter_start"": 0, ""chapter_end"": 1835, ""start"": 700, ""end"": 1500, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 53}",",” said Alice. “What sort of a dance is it?”
+
+“Why,” said the Gryphon, “you first form into a line along the sea-shore—”
+
+“Two lines!” cried the Mock Turtle. “Seals, turtles, salmon, and so on; then, when you’ve cleared all the jelly-fish out of the way—”
+
+“_That_ generally takes some time,” interrupted the Gryphon.
+
+“—you advance twice—”
+
+“Each with a lobster as a partner!” cried the Gryphon.
+
+“Of course,” the Mock Turtle said: “advance twice, set to partners—”
+
+“—change lobsters, and retire in same order,” continued the Gryphon.
+
+“Then, you know,” the Mock Turtle went on, “you throw the—”
+
+“The lobsters!” shouted the Gryphon, with a bound into the air.
+
+“—as far out to sea as you can—”
+
+“Swim after them!” screamed the Gryphon.
+
+“Turn a somersault in the sea!” cried the Mock Turtle, caper",1,"Q18, top-2: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 53, chapter 10 (The Lobster Quadrille) đúng nguồn; text khớp nguyên văn lát [700:1500] của unit; language và ranh giới unit trong chương đều khớp.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+A,Q18,3,68df00bfdeb5605ab32e3199a45aecea2a2ae51f278284514b223855ecf33221,"{""chapter"": 9, ""chapter_title"": ""The Mock Turtle’s Story"", ""language"": ""en"", ""chapter_start"": 9681, ""chapter_end"": 12593, ""start"": 1400, ""end"": 2200, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 52}","rtle, and said “What else had you to learn?”
+
+“Well, there was Mystery,” the Mock Turtle replied, counting off the subjects on his flappers, “—Mystery, ancient and modern, with Seaography: then Drawling—the Drawling-master was an old conger-eel, that used to come once a week: _he_ taught us Drawling, Stretching, and Fainting in Coils.”
+
+“What was _that_ like?” said Alice.
+
+“Well, I can’t show it you myself,” the Mock Turtle said: “I’m too stiff. And the Gryphon never learnt it.”
+
+“Hadn’t time,” said the Gryphon: “I went to the Classics master, though. He was an old crab, _he_ was.”
+
+“I never went to him,” the Mock Turtle said with a sigh: “he taught Laughing and Grief, they used to say.”
+
+“So he did, so he did,” said the Gryphon, sighing in his turn; and both creatures hid their faces in t",1,"Q18, top-3: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 52, chapter 9 (The Mock Turtle’s Story) đúng nguồn; text khớp nguyên văn lát [1400:2200] của unit; language và ranh giới unit trong chương đều khớp. Hit nằm ngoài chương X được hỏi, nhưng trường chapter phản ánh đúng nguồn; lỗi được ghi riêng ở filter compliance, không phải metadata bị gán sai.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+B,Q18,1,e05063d5a30839e7606c3a48c03c80a2e8b9450117324cbacf31149e97ba9aaa,"{""chapter"": 10, ""chapter_title"": ""The Lobster Quadrille"", ""language"": ""en"", ""chapter_start"": 5586, ""chapter_end"": 7407, ""start"": 0, ""end"": 668, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 56}","“If I’d been the whiting,” said Alice, whose thoughts were still running on the song, “I’d have said to the porpoise, ‘Keep back, please: we don’t want _you_ with us!’”
+
+“They were obliged to have him with them,” the Mock Turtle said: “no wise fish would go anywhere without a porpoise.”
+
+“Wouldn’t it really?” said Alice in a tone of great surprise.
+
+“Of course not,” said the Mock Turtle: “why, if a fish came to _me_, and told me he was going a journey, I should say ‘With what porpoise?’”
+
+“Don’t you mean ‘purpose’?” said Alice.
+
+“I mean what I say,” the Mock Turtle replied in an offended tone. And the Gryphon added “Come, let’s hear some of _your_ adventures.”",1,"Q18, top-1: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 56, chapter 10 (The Lobster Quadrille) đúng nguồn; text khớp nguyên văn lát [0:668] của unit; language và ranh giới unit trong chương đều khớp.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+B,Q18,2,950efa7150cb54ec24b80fba9a548164feb7175162a91dec960a72bffa4037b1,"{""chapter"": 10, ""chapter_title"": ""The Lobster Quadrille"", ""language"": ""en"", ""chapter_start"": 0, ""chapter_end"": 1835, ""start"": 746, ""end"": 1517, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 53}","“Why,” said the Gryphon, “you first form into a line along the sea-shore—”
+
+“Two lines!” cried the Mock Turtle. “Seals, turtles, salmon, and so on; then, when you’ve cleared all the jelly-fish out of the way—”
+
+“_That_ generally takes some time,” interrupted the Gryphon.
+
+“—you advance twice—”
+
+“Each with a lobster as a partner!” cried the Gryphon.
+
+“Of course,” the Mock Turtle said: “advance twice, set to partners—”
+
+“—change lobsters, and retire in same order,” continued the Gryphon.
+
+“Then, you know,” the Mock Turtle went on, “you throw the—”
+
+“The lobsters!” shouted the Gryphon, with a bound into the air.
+
+“—as far out to sea as you can—”
+
+“Swim after them!” screamed the Gryphon.
+
+“Turn a somersault in the sea!” cried the Mock Turtle, capering wildly about.",1,"Q18, top-2: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 53, chapter 10 (The Lobster Quadrille) đúng nguồn; text khớp nguyên văn lát [746:1517] của unit; language và ranh giới unit trong chương đều khớp.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+B,Q18,3,9534c248522b15fe7cc4c2ac749d7f9482cda2ce620af57ab1389861fa85a1d9,"{""chapter"": 9, ""chapter_title"": ""The Mock Turtle’s Story"", ""language"": ""en"", ""chapter_start"": 7808, ""chapter_end"": 9679, ""start"": 1314, ""end"": 1871, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 51}","“You ought to be ashamed of yourself for asking such a simple question,” added the Gryphon; and then they both sat silent and looked at poor Alice, who felt ready to sink into the earth. At last the Gryphon said to the Mock Turtle, “Drive on, old fellow! Don’t be all day about it!” and he went on in these words:
+
+“Yes, we went to school in the sea, though you mayn’t believe it—”
+
+“I never said I didn’t!” interrupted Alice.
+
+“You did,” said the Mock Turtle.
+
+“Hold your tongue!” added the Gryphon, before Alice could speak again. The Mock Turtle went on.",1,"Q18, top-3: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 51, chapter 9 (The Mock Turtle’s Story) đúng nguồn; text khớp nguyên văn lát [1314:1871] của unit; language và ranh giới unit trong chương đều khớp. Hit nằm ngoài chương X được hỏi, nhưng trường chapter phản ánh đúng nguồn; lỗi được ghi riêng ở filter compliance, không phải metadata bị gán sai.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+C,Q18,1,e05063d5a30839e7606c3a48c03c80a2e8b9450117324cbacf31149e97ba9aaa,"{""chapter"": 10, ""chapter_title"": ""The Lobster Quadrille"", ""language"": ""en"", ""chapter_start"": 5586, ""chapter_end"": 7407, ""start"": 0, ""end"": 668, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 56}","“If I’d been the whiting,” said Alice, whose thoughts were still running on the song, “I’d have said to the porpoise, ‘Keep back, please: we don’t want _you_ with us!’”
+
+“They were obliged to have him with them,” the Mock Turtle said: “no wise fish would go anywhere without a porpoise.”
+
+“Wouldn’t it really?” said Alice in a tone of great surprise.
+
+“Of course not,” said the Mock Turtle: “why, if a fish came to _me_, and told me he was going a journey, I should say ‘With what porpoise?’”
+
+“Don’t you mean ‘purpose’?” said Alice.
+
+“I mean what I say,” the Mock Turtle replied in an offended tone. And the Gryphon added “Come, let’s hear some of _your_ adventures.”",1,"Q18, top-1: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 56, chapter 10 (The Lobster Quadrille) đúng nguồn; text khớp nguyên văn lát [0:668] của unit; language và ranh giới unit trong chương đều khớp.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+C,Q18,2,950efa7150cb54ec24b80fba9a548164feb7175162a91dec960a72bffa4037b1,"{""chapter"": 10, ""chapter_title"": ""The Lobster Quadrille"", ""language"": ""en"", ""chapter_start"": 0, ""chapter_end"": 1835, ""start"": 746, ""end"": 1517, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 53}","“Why,” said the Gryphon, “you first form into a line along the sea-shore—”
+
+“Two lines!” cried the Mock Turtle. “Seals, turtles, salmon, and so on; then, when you’ve cleared all the jelly-fish out of the way—”
+
+“_That_ generally takes some time,” interrupted the Gryphon.
+
+“—you advance twice—”
+
+“Each with a lobster as a partner!” cried the Gryphon.
+
+“Of course,” the Mock Turtle said: “advance twice, set to partners—”
+
+“—change lobsters, and retire in same order,” continued the Gryphon.
+
+“Then, you know,” the Mock Turtle went on, “you throw the—”
+
+“The lobsters!” shouted the Gryphon, with a bound into the air.
+
+“—as far out to sea as you can—”
+
+“Swim after them!” screamed the Gryphon.
+
+“Turn a somersault in the sea!” cried the Mock Turtle, capering wildly about.",1,"Q18, top-2: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 53, chapter 10 (The Lobster Quadrille) đúng nguồn; text khớp nguyên văn lát [746:1517] của unit; language và ranh giới unit trong chương đều khớp.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+C,Q18,3,42eecbd85eb85543bfa05e1151129a27e12fbfb83fc0b579ca362c40fa8b03a6,"{""chapter"": 10, ""chapter_title"": ""The Lobster Quadrille"", ""language"": ""en"", ""chapter_start"": 3733, ""chapter_end"": 5584, ""start"": 0, ""end"": 681, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 55}","“Oh, as to the whiting,” said the Mock Turtle, “they—you’ve seen them, of course?”
+
+“Yes,” said Alice, “I’ve often seen them at dinn—” she checked herself hastily.
+
+“I don’t know where Dinn may be,” said the Mock Turtle, “but if you’ve seen them so often, of course you know what they’re like.”
+
+“I believe so,” Alice replied thoughtfully. “They have their tails in their mouths—and they’re all over crumbs.”
+
+“You’re wrong about the crumbs,” said the Mock Turtle: “crumbs would all wash off in the sea. But they _have_ their tails in their mouths; and the reason is—” here the Mock Turtle yawned and shut his eyes.—“Tell her about the reason and all that,” he said to the Gryphon.",1,"Q18, top-3: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 55, chapter 10 (The Lobster Quadrille) đúng nguồn; text khớp nguyên văn lát [0:681] của unit; language và ranh giới unit trong chương đều khớp.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+A,Q19,1,308575e891b409b27d2387d6087a30b82087656c751f45da890cfb07769d176a,"{""chapter"": 11, ""chapter_title"": ""Who Stole the Tarts?"", ""language"": ""en"", ""chapter_start"": 3838, ""chapter_end"": 5805, ""start"": 700, ""end"": 1500, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 61}","as an explanation; “I’ve none of my own. I’m a hatter.”
+
+Here the Queen put on her spectacles, and began staring at the Hatter, who turned pale and fidgeted.
+
+“Give your evidence,” said the King; “and don’t be nervous, or I’ll have you executed on the spot.”
+
+This did not seem to encourage the witness at all: he kept shifting from one foot to the other, looking uneasily at the Queen, and in his confusion he bit a large piece out of his teacup instead of the bread-and-butter.
+
+Just at this moment Alice felt a very curious sensation, which puzzled her a good deal until she made out what it was: she was beginning to grow larger again, and she thought at first she would get up and leave the court; but on second thoughts she decided to remain where she was as long as there was room for her.
+
+“I",1,"Q19, top-1: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 61, chapter 11 (Who Stole the Tarts?) đúng nguồn; text khớp nguyên văn lát [700:1500] của unit; language và ranh giới unit trong chương đều khớp.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+A,Q19,2,c9381625c816457d24a1646fc8e0fa3f09f9c5ff0312349f9be1df3e6e973262,"{""chapter"": 11, ""chapter_title"": ""Who Stole the Tarts?"", ""language"": ""en"", ""chapter_start"": 7803, ""chapter_end"": 10343, ""start"": 700, ""end"": 1500, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 63}"," singers.
+
+“You may go,” said the King, and the Hatter hurriedly left the court, without even waiting to put his shoes on.
+
+“—and just take his head off outside,” the Queen added to one of the officers: but the Hatter was out of sight before the officer could get to the door.
+
+“Call the next witness!” said the King.
+
+The next witness was the Duchess’s cook. She carried the pepper-box in her hand, and Alice guessed who it was, even before she got into the court, by the way the people near the door began sneezing all at once.
+
+“Give your evidence,” said the King.
+
+“Shan’t,” said the cook.
+
+The King looked anxiously at the White Rabbit, who said in a low voice, “Your Majesty must cross-examine _this_ witness.”
+
+“Well, if I must, I must,” the King said, with a melancholy air, and, after foldin",1,"Q19, top-2: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 63, chapter 11 (Who Stole the Tarts?) đúng nguồn; text khớp nguyên văn lát [700:1500] của unit; language và ranh giới unit trong chương đều khớp.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+A,Q19,3,e913bd088a5901b3bc99133594ff4ae97d09e823242097efac95ea2c66a86f04,"{""chapter"": 11, ""chapter_title"": ""Who Stole the Tarts?"", ""language"": ""en"", ""chapter_start"": 3838, ""chapter_end"": 5805, ""start"": 0, ""end"": 800, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 61}","“You ought to have finished,” said the King. “When did you begin?”
+
+The Hatter looked at the March Hare, who had followed him into the court, arm-in-arm with the Dormouse. “Fourteenth of March, I _think_ it was,” he said.
+
+“Fifteenth,” said the March Hare.
+
+“Sixteenth,” added the Dormouse.
+
+“Write that down,” the King said to the jury, and the jury eagerly wrote down all three dates on their slates, and then added them up, and reduced the answer to shillings and pence.
+
+“Take off your hat,” the King said to the Hatter.
+
+“It isn’t mine,” said the Hatter.
+
+“_Stolen!_” the King exclaimed, turning to the jury, who instantly made a memorandum of the fact.
+
+“I keep them to sell,” the Hatter added as an explanation; “I’ve none of my own. I’m a hatter.”
+
+Here the Queen put on her spectacles, and b",1,"Q19, top-3: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 61, chapter 11 (Who Stole the Tarts?) đúng nguồn; text khớp nguyên văn lát [0:800] của unit; language và ranh giới unit trong chương đều khớp.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+B,Q19,1,986fa846798fd2c370ef6e801e19e085b163be2c7d2f73140407166e5572fd70,"{""chapter"": 11, ""chapter_title"": ""Who Stole the Tarts?"", ""language"": ""en"", ""chapter_start"": 7803, ""chapter_end"": 10343, ""start"": 711, ""end"": 1416, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 63}","“You may go,” said the King, and the Hatter hurriedly left the court, without even waiting to put his shoes on.
+
+“—and just take his head off outside,” the Queen added to one of the officers: but the Hatter was out of sight before the officer could get to the door.
+
+“Call the next witness!” said the King.
+
+The next witness was the Duchess’s cook. She carried the pepper-box in her hand, and Alice guessed who it was, even before she got into the court, by the way the people near the door began sneezing all at once.
+
+“Give your evidence,” said the King.
+
+“Shan’t,” said the cook.
+
+The King looked anxiously at the White Rabbit, who said in a low voice, “Your Majesty must cross-examine _this_ witness.”",1,"Q19, top-1: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 63, chapter 11 (Who Stole the Tarts?) đúng nguồn; text khớp nguyên văn lát [711:1416] của unit; language và ranh giới unit trong chương đều khớp.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+B,Q19,2,32ed1036e321e5bdc8032aeab970507b69a1be93bbee9876e9fec7c7939e6899,"{""chapter"": 11, ""chapter_title"": ""Who Stole the Tarts?"", ""language"": ""en"", ""chapter_start"": 1818, ""chapter_end"": 3836, ""start"": 1501, ""end"": 2018, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 60}","“Consider your verdict,” the King said to the jury.
+
+“Not yet, not yet!” the Rabbit hastily interrupted. “There’s a great deal to come before that!”
+
+“Call the first witness,” said the King; and the White Rabbit blew three blasts on the trumpet, and called out, “First witness!”
+
+The first witness was the Hatter. He came in with a teacup in one hand and a piece of bread-and-butter in the other. “I beg pardon, your Majesty,” he began, “for bringing these in: but I hadn’t quite finished my tea when I was sent for.”",1,"Q19, top-2: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 60, chapter 11 (Who Stole the Tarts?) đúng nguồn; text khớp nguyên văn lát [1501:2018] của unit; language và ranh giới unit trong chương đều khớp.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+B,Q19,3,2b581d5f72886aebf4e6c4e04633b6c4400de38473715bd903d819f63eeaccb2,"{""chapter"": 11, ""chapter_title"": ""Who Stole the Tarts?"", ""language"": ""en"", ""chapter_start"": 3838, ""chapter_end"": 5805, ""start"": 757, ""end"": 1496, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 61}","Here the Queen put on her spectacles, and began staring at the Hatter, who turned pale and fidgeted.
+
+“Give your evidence,” said the King; “and don’t be nervous, or I’ll have you executed on the spot.”
+
+This did not seem to encourage the witness at all: he kept shifting from one foot to the other, looking uneasily at the Queen, and in his confusion he bit a large piece out of his teacup instead of the bread-and-butter.
+
+Just at this moment Alice felt a very curious sensation, which puzzled her a good deal until she made out what it was: she was beginning to grow larger again, and she thought at first she would get up and leave the court; but on second thoughts she decided to remain where she was as long as there was room for her.",1,"Q19, top-3: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 61, chapter 11 (Who Stole the Tarts?) đúng nguồn; text khớp nguyên văn lát [757:1496] của unit; language và ranh giới unit trong chương đều khớp.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+C,Q19,1,986fa846798fd2c370ef6e801e19e085b163be2c7d2f73140407166e5572fd70,"{""chapter"": 11, ""chapter_title"": ""Who Stole the Tarts?"", ""language"": ""en"", ""chapter_start"": 7803, ""chapter_end"": 10343, ""start"": 711, ""end"": 1416, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 63}","“You may go,” said the King, and the Hatter hurriedly left the court, without even waiting to put his shoes on.
+
+“—and just take his head off outside,” the Queen added to one of the officers: but the Hatter was out of sight before the officer could get to the door.
+
+“Call the next witness!” said the King.
+
+The next witness was the Duchess’s cook. She carried the pepper-box in her hand, and Alice guessed who it was, even before she got into the court, by the way the people near the door began sneezing all at once.
+
+“Give your evidence,” said the King.
+
+“Shan’t,” said the cook.
+
+The King looked anxiously at the White Rabbit, who said in a low voice, “Your Majesty must cross-examine _this_ witness.”",1,"Q19, top-1: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 63, chapter 11 (Who Stole the Tarts?) đúng nguồn; text khớp nguyên văn lát [711:1416] của unit; language và ranh giới unit trong chương đều khớp.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+C,Q19,2,32ed1036e321e5bdc8032aeab970507b69a1be93bbee9876e9fec7c7939e6899,"{""chapter"": 11, ""chapter_title"": ""Who Stole the Tarts?"", ""language"": ""en"", ""chapter_start"": 1818, ""chapter_end"": 3836, ""start"": 1501, ""end"": 2018, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 60}","“Consider your verdict,” the King said to the jury.
+
+“Not yet, not yet!” the Rabbit hastily interrupted. “There’s a great deal to come before that!”
+
+“Call the first witness,” said the King; and the White Rabbit blew three blasts on the trumpet, and called out, “First witness!”
+
+The first witness was the Hatter. He came in with a teacup in one hand and a piece of bread-and-butter in the other. “I beg pardon, your Majesty,” he began, “for bringing these in: but I hadn’t quite finished my tea when I was sent for.”",1,"Q19, top-2: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 60, chapter 11 (Who Stole the Tarts?) đúng nguồn; text khớp nguyên văn lát [1501:2018] của unit; language và ranh giới unit trong chương đều khớp.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+C,Q19,3,2b581d5f72886aebf4e6c4e04633b6c4400de38473715bd903d819f63eeaccb2,"{""chapter"": 11, ""chapter_title"": ""Who Stole the Tarts?"", ""language"": ""en"", ""chapter_start"": 3838, ""chapter_end"": 5805, ""start"": 757, ""end"": 1496, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 61}","Here the Queen put on her spectacles, and began staring at the Hatter, who turned pale and fidgeted.
+
+“Give your evidence,” said the King; “and don’t be nervous, or I’ll have you executed on the spot.”
+
+This did not seem to encourage the witness at all: he kept shifting from one foot to the other, looking uneasily at the Queen, and in his confusion he bit a large piece out of his teacup instead of the bread-and-butter.
+
+Just at this moment Alice felt a very curious sensation, which puzzled her a good deal until she made out what it was: she was beginning to grow larger again, and she thought at first she would get up and leave the court; but on second thoughts she decided to remain where she was as long as there was room for her.",1,"Q19, top-3: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 61, chapter 11 (Who Stole the Tarts?) đúng nguồn; text khớp nguyên văn lát [757:1496] của unit; language và ranh giới unit trong chương đều khớp.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+A,Q20,1,50dadff7ee09a9cc91ea460a94830e632f17a8f98e7d4bff8e9604d503db3fec,"{""chapter"": 12, ""chapter_title"": ""Alice’s Evidence"", ""language"": ""en"", ""chapter_start"": 1806, ""chapter_end"": 3632, ""start"": 700, ""end"": 1500, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 65}"," King, who had been for some time busily writing in his note-book, cackled out “Silence!” and read out from his book, “Rule Forty-two. _All persons more than a mile high to leave the court_.”
+
+Everybody looked at Alice.
+
+“_I’m_ not a mile high,” said Alice.
+
+“You are,” said the King.
+
+“Nearly two miles high,” added the Queen.
+
+“Well, I shan’t go, at any rate,” said Alice: “besides, that’s not a regular rule: you invented it just now.”
+
+“It’s the oldest rule in the book,” said the King.
+
+“Then it ought to be Number One,” said Alice.
+
+The King turned pale, and shut his note-book hastily. “Consider your verdict,” he said to the jury, in a low, trembling voice.
+
+“There’s more evidence to come yet, please your Majesty,” said the White Rabbit, jumping up in a great hurry; “this paper has just be",1,"Q20, top-1: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 65, chapter 12 (Alice’s Evidence) đúng nguồn; text khớp nguyên văn lát [700:1500] của unit; language và ranh giới unit trong chương đều khớp.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+A,Q20,2,1fedaadb72e99d7c3024a9ea18f8b8400ebcc1006c1dbf88f092953a0da87da7,"{""chapter"": 9, ""chapter_title"": ""The Mock Turtle’s Story"", ""language"": ""en"", ""chapter_start"": 3712, ""chapter_end"": 5813, ""start"": 1400, ""end"": 2101, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 49}","croquet-ground.
+
+The other guests had taken advantage of the Queen’s absence, and were resting in the shade: however, the moment they saw her, they hurried back to the game, the Queen merely remarking that a moment’s delay would cost them their lives.
+
+All the time they were playing the Queen never left off quarrelling with the other players, and shouting “Off with his head!” or “Off with her head!” Those whom she sentenced were taken into custody by the soldiers, who of course had to leave off being arches to do this, so that by the end of half an hour or so there were no arches left, and all the players, except the King, the Queen, and Alice, were in custody and under sentence of execution.",1,"Q20, top-2: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 49, chapter 9 (The Mock Turtle’s Story) đúng nguồn; text khớp nguyên văn lát [1400:2101] của unit; language và ranh giới unit trong chương đều khớp.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+A,Q20,3,ed3111368a617b8767616faed8147b2d83aa4a4f3eadf3f79f15cce255ad257b,"{""chapter"": 11, ""chapter_title"": ""Who Stole the Tarts?"", ""language"": ""en"", ""chapter_start"": 7803, ""chapter_end"": 10343, ""start"": 0, ""end"": 800, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 63}","“I’m glad I’ve seen that done,” thought Alice. “I’ve so often read in the newspapers, at the end of trials, “There was some attempts at applause, which was immediately suppressed by the officers of the court,” and I never understood what it meant till now.”
+
+“If that’s all you know about it, you may stand down,” continued the King.
+
+“I can’t go no lower,” said the Hatter: “I’m on the floor, as it is.”
+
+“Then you may _sit_ down,” the King replied.
+
+Here the other guinea-pig cheered, and was suppressed.
+
+“Come, that finished the guinea-pigs!” thought Alice. “Now we shall get on better.”
+
+“I’d rather finish my tea,” said the Hatter, with an anxious look at the Queen, who was reading the list of singers.
+
+“You may go,” said the King, and the Hatter hurriedly left the court, without even waitin",1,"Q20, top-3: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 63, chapter 11 (Who Stole the Tarts?) đúng nguồn; text khớp nguyên văn lát [0:800] của unit; language và ranh giới unit trong chương đều khớp.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+B,Q20,1,67389e0192dce559c1271ffa795c7563a1a09ad4bd3d321ccd25d8fe1d5f7813,"{""chapter"": 12, ""chapter_title"": ""Alice’s Evidence"", ""language"": ""en"", ""chapter_start"": 1806, ""chapter_end"": 3632, ""start"": 682, ""end"": 1365, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 65}","At this moment the King, who had been for some time busily writing in his note-book, cackled out “Silence!” and read out from his book, “Rule Forty-two. _All persons more than a mile high to leave the court_.”
+
+Everybody looked at Alice.
+
+“_I’m_ not a mile high,” said Alice.
+
+“You are,” said the King.
+
+“Nearly two miles high,” added the Queen.
+
+“Well, I shan’t go, at any rate,” said Alice: “besides, that’s not a regular rule: you invented it just now.”
+
+“It’s the oldest rule in the book,” said the King.
+
+“Then it ought to be Number One,” said Alice.
+
+The King turned pale, and shut his note-book hastily. “Consider your verdict,” he said to the jury, in a low, trembling voice.",1,"Q20, top-1: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 65, chapter 12 (Alice’s Evidence) đúng nguồn; text khớp nguyên văn lát [682:1365] của unit; language và ranh giới unit trong chương đều khớp.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+B,Q20,2,23c9a897839171917ae87de7c792c4ac16b7a8cfec1bfc662cc5fd9f04c73257,"{""chapter"": 9, ""chapter_title"": ""The Mock Turtle’s Story"", ""language"": ""en"", ""chapter_start"": 3712, ""chapter_end"": 5813, ""start"": 1417, ""end"": 2101, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 49}","The other guests had taken advantage of the Queen’s absence, and were resting in the shade: however, the moment they saw her, they hurried back to the game, the Queen merely remarking that a moment’s delay would cost them their lives.
+
+All the time they were playing the Queen never left off quarrelling with the other players, and shouting “Off with his head!” or “Off with her head!” Those whom she sentenced were taken into custody by the soldiers, who of course had to leave off being arches to do this, so that by the end of half an hour or so there were no arches left, and all the players, except the King, the Queen, and Alice, were in custody and under sentence of execution.",1,"Q20, top-2: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 49, chapter 9 (The Mock Turtle’s Story) đúng nguồn; text khớp nguyên văn lát [1417:2101] của unit; language và ranh giới unit trong chương đều khớp.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+B,Q20,3,0eb39c5cf792c7a76e81d2abd6b033e4b1b1d54b52a9f75c2069426f70f8365e,"{""chapter"": 11, ""chapter_title"": ""Who Stole the Tarts?"", ""language"": ""en"", ""chapter_start"": 7803, ""chapter_end"": 10343, ""start"": 0, ""end"": 709, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 63}","“I’m glad I’ve seen that done,” thought Alice. “I’ve so often read in the newspapers, at the end of trials, “There was some attempts at applause, which was immediately suppressed by the officers of the court,” and I never understood what it meant till now.”
+
+“If that’s all you know about it, you may stand down,” continued the King.
+
+“I can’t go no lower,” said the Hatter: “I’m on the floor, as it is.”
+
+“Then you may _sit_ down,” the King replied.
+
+Here the other guinea-pig cheered, and was suppressed.
+
+“Come, that finished the guinea-pigs!” thought Alice. “Now we shall get on better.”
+
+“I’d rather finish my tea,” said the Hatter, with an anxious look at the Queen, who was reading the list of singers.",1,"Q20, top-3: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 63, chapter 11 (Who Stole the Tarts?) đúng nguồn; text khớp nguyên văn lát [0:709] của unit; language và ranh giới unit trong chương đều khớp.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+C,Q20,1,67389e0192dce559c1271ffa795c7563a1a09ad4bd3d321ccd25d8fe1d5f7813,"{""chapter"": 12, ""chapter_title"": ""Alice’s Evidence"", ""language"": ""en"", ""chapter_start"": 1806, ""chapter_end"": 3632, ""start"": 682, ""end"": 1365, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 65}","At this moment the King, who had been for some time busily writing in his note-book, cackled out “Silence!” and read out from his book, “Rule Forty-two. _All persons more than a mile high to leave the court_.”
+
+Everybody looked at Alice.
+
+“_I’m_ not a mile high,” said Alice.
+
+“You are,” said the King.
+
+“Nearly two miles high,” added the Queen.
+
+“Well, I shan’t go, at any rate,” said Alice: “besides, that’s not a regular rule: you invented it just now.”
+
+“It’s the oldest rule in the book,” said the King.
+
+“Then it ought to be Number One,” said Alice.
+
+The King turned pale, and shut his note-book hastily. “Consider your verdict,” he said to the jury, in a low, trembling voice.",1,"Q20, top-1: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 65, chapter 12 (Alice’s Evidence) đúng nguồn; text khớp nguyên văn lát [682:1365] của unit; language và ranh giới unit trong chương đều khớp.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+C,Q20,2,23c9a897839171917ae87de7c792c4ac16b7a8cfec1bfc662cc5fd9f04c73257,"{""chapter"": 9, ""chapter_title"": ""The Mock Turtle’s Story"", ""language"": ""en"", ""chapter_start"": 3712, ""chapter_end"": 5813, ""start"": 1417, ""end"": 2101, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 49}","The other guests had taken advantage of the Queen’s absence, and were resting in the shade: however, the moment they saw her, they hurried back to the game, the Queen merely remarking that a moment’s delay would cost them their lives.
+
+All the time they were playing the Queen never left off quarrelling with the other players, and shouting “Off with his head!” or “Off with her head!” Those whom she sentenced were taken into custody by the soldiers, who of course had to leave off being arches to do this, so that by the end of half an hour or so there were no arches left, and all the players, except the King, the Queen, and Alice, were in custody and under sentence of execution.",1,"Q20, top-2: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 49, chapter 9 (The Mock Turtle’s Story) đúng nguồn; text khớp nguyên văn lát [1417:2101] của unit; language và ranh giới unit trong chương đều khớp.",Codex (AI hỗ trợ; chưa được học viên xác nhận)
+C,Q20,3,0eb39c5cf792c7a76e81d2abd6b033e4b1b1d54b52a9f75c2069426f70f8365e,"{""chapter"": 11, ""chapter_title"": ""Who Stole the Tarts?"", ""language"": ""en"", ""chapter_start"": 7803, ""chapter_end"": 10343, ""start"": 0, ""end"": 709, ""document_id"": ""pg11"", ""source"": ""https://www.gutenberg.org/ebooks/11"", ""page"": 63}","“I’m glad I’ve seen that done,” thought Alice. “I’ve so often read in the newspapers, at the end of trials, “There was some attempts at applause, which was immediately suppressed by the officers of the court,” and I never understood what it meant till now.”
+
+“If that’s all you know about it, you may stand down,” continued the King.
+
+“I can’t go no lower,” said the Hatter: “I’m on the floor, as it is.”
+
+“Then you may _sit_ down,” the King replied.
+
+Here the other guinea-pig cheered, and was suppressed.
+
+“Come, that finished the guinea-pigs!” thought Alice. “Now we shall get on better.”
+
+“I’d rather finish my tea,” said the Hatter, with an anxious look at the Queen, who was reading the list of singers.",1,"Q20, top-3: document_id pg11 và URL Gutenberg #11 khớp pages.jsonl; unit 63, chapter 11 (Who Stole the Tarts?) đúng nguồn; text khớp nguyên văn lát [0:709] của unit; language và ranh giới unit trong chương đều khớp.",Codex (AI hỗ trợ; chưa được học viên xác nhận)

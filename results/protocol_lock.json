@@ -1,0 +1,31 @@
+{
+  "created_at": "2026-11-13T15:00:14.527025+07:00",
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "config": {
+    "A": {
+      "method": "fixed",
+      "size": 800,
+      "overlap": 100,
+      "filter": false
+    },
+    "B": {
+      "method": "paragraph",
+      "size": 800,
+      "overlap": 0,
+      "filter": false
+    },
+    "C": {
+      "method": "paragraph",
+      "size": 800,
+      "overlap": 0,
+      "filter": true
+    }
+  },
+  "selection_rule": "dev hit3 desc, hit1 desc, chunks asc, strategy asc",
+  "sha256": {
+    "starter\\data\\alice.txt": "01b38ea4c710a84bc18d0bd41271a5a1a92b94e97b2812f4dece97d4a694725e",
+    "starter\\data\\pages.jsonl": "afe5b677167bc211d53bbb9cad7952bcd4d717e9764bf4041f0afca21ee626bd",
+    "benchmark\\questions.json": "f980db26c67efa2feefa677fcd3941b8b12db5f91295c81f9a25dfcaf81256ef",
+    "benchmark\\PROTOCOL.md": "eaedce3a2e9b6d862d3a88a1183f4e4d264e7766d295975644d2563f38401170"
+  }
+}
