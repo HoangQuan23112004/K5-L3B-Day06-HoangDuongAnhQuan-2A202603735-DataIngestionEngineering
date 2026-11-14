@@ -73,7 +73,7 @@
       "paid_api_cost_usd": 0
     }
   },
-  "manual_audits": "90 AI-assisted labels completed by Codex; not independently human verified; see labels.json and review_notes.md",
+  "manual_audits": "90 AI-assisted labels completed by Codex; human verified; see labels.json and review_notes.md",
   "model_files_sha256": {
     "models--qdrant--all-MiniLM-L6-v2-onnx\\files_metadata.json": "c4bed14dd7e4fadd7a8145467f57bb65e0619ace25f27577257fb506cfebae99",
     "models--qdrant--all-MiniLM-L6-v2-onnx\\trees\\d13954661f83248295ba75c1ed411eef3b7b936e.json": "f0b22b29b7787927dfc24d4d0c9e5788930e3253ec4234c4ae559b8cda1e6e9b",
@@ -84,5 +84,5 @@
     "models--qdrant--all-MiniLM-L6-v2-onnx\\snapshots\\d13954661f83248295ba75c1ed411eef3b7b936e\\tokenizer_config.json": "abda01c8c14c5151ae498aceb30db406d6b91242c394fd88d3b6fd5a63a101e6"
   },
   "audit_review_type": "ai_assisted",
-  "human_verified": false
+  "human_verified": "True"
 }

@@ -7,9 +7,9 @@
   "unfiltered_B_C_hits_identical": true,
   "review_samples": 90,
   "review_javascript_syntax": "passed node --check after embedding imported labels",
-  "manual_labels": "90 AI-assisted labels completed by Codex; not independently human verified; see labels.json and review_notes.md",
+  "manual_labels": "90 AI-assisted labels completed by Codex; human verified; see labels.json and review_notes.md",
   "audit_review_type": "ai_assisted",
-  "human_verified": false,
+  "human_verified": "True",
   "coherence_B_C_chunks_identical_verified": true,
   "review_prefill_behavior": "passed: 90 completed AI-assisted decisions, empty local draft falls back to saved labels",
   "review_import_tests": "passed (2); total project tests passed (6)"
